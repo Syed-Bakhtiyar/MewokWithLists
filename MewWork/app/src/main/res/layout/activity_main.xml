@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.syedinkisarahmed.mewwork.MainActivity">
+
+   <TextView
+       android:paddingLeft="8dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/Numbers"
+       android:textSize="25sp"
+       android:paddingTop="16dp"
+       android:paddingBottom="16dp"
+       style="@style/first"
+       android:id="@+id/first"/>
+    <TextView
+        android:id="@+id/two"
+        style="@style/second"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Family"
+        android:textSize="25sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+    <TextView
+        android:id="@+id/third"
+        style="@style/third"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/colors"
+        android:textSize="25sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+    <TextView
+        android:id="@+id/fourth"
+        style="@style/fourth"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pharases"
+        android:textSize="25sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>
